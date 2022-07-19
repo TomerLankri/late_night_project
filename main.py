@@ -3,6 +3,7 @@ For this program to run smoothly with vlc a few things needs to be changed on VL
 1 - remove vlc video title from startup
 2 - Remove VLC media controllers from fullscreen video
 3 - Close VLC when playlist ends
+4 - Set the RUN_VLC global variable to be "vlc " if the cmd has the command vlc otherwise the path to vlc application file followed by a space.
 """
 import os
 import random
